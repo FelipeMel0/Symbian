@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroEnderecoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".CadastroEnderecoActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cadastro de endereço"
+            style="@style/textTitulo"/>
+
+        <EditText
+            android:id="@+id/txtCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CEP"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            style="@style/editText"/>
+
+        <EditText
+            android:id="@+id/txtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            style="@style/editText"/>
+
+        <EditText
+            android:id="@+id/txtComplemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Complemento"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            style="@style/editText"/>
+
+        <Button
+            android:id="@+id/btnCadastrarEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"
+            style="@style/btnForm"/>
+
+    </LinearLayout>
+
+</ScrollView>
